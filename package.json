@@ -1,0 +1,24 @@
+{
+  "name": "quill-image",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "quill-image-resize-module": "^3.0.0",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-quill": "^1.2.7",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "start-rewind": "react-app-rewired start",
+    "build-rewind": "react-app-rewired build"
+  },
+  "devDependencies": {
+    "react-app-rewire-provide-plugin": "^1.0.0",
+    "react-app-rewired": "^1.5.2"
+  }
+}
